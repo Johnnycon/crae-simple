@@ -1,0 +1,14 @@
+
+{
+  "name": "crae-simple",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  },
+  "scripts": {
+    "start": "concurrently \"cd client && PORT=3000 yarn start\" \"cd server && PORT=3001 yarn start\""
+  }
+}
