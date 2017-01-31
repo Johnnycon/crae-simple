@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {},
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "concurrently": "^3.1.0"
   },
   "scripts": {
